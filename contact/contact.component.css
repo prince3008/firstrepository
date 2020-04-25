@@ -1,0 +1,89 @@
+
+.row{
+    padding-top: 4em;
+    padding-left: 20em;
+    position: relative;
+  }
+  
+  .wrap-login{
+    width: 34em;
+    position: absolute;
+    padding-left: 3em;
+    padding-top: 1em;
+    background: transparent;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-family: 'Coda', sans-serif;
+  }
+  
+  input,textarea{
+    width: 12em;
+    border-color: white;
+    border-radius: 9px;
+    right: 5em;
+    position: relative;
+    float: right;
+  }
+  
+  .form-control:focus{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+    color: #800000;
+  }
+  
+  #ep{
+    font-family: 'Coda', sans-serif;
+    color: white;
+  }
+  
+  #btn{
+    position: relative;
+    left: 2em;
+    width: 20em;
+    font-family: 'Coda', sans-serif;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 9px; 
+    background-color: #800000;
+    font-family: 'Coda', sans-serif;
+  }
+  #btn:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+  }
+  
+  img {
+    width: 206.63vh;
+    height: 92.58vh;
+    opacity: 0.9;
+    position: absolute;
+  }
+  
+  /*----------navbar------------*/
+.navbar{
+  position: relative;
+    bottom: 88%;
+    height: 2.5em;
+    font-family: 'Coda', sans-serif;
+    font-size: large;
+    box-shadow: 0px 10px 28px 0px;
+    background-color: whitesmoke;
+}
+li{
+    padding: 1vh;
+}
+.btn{
+    background: transparent;
+    color:black;
+    border: 0ch;
+    border-radius: 2px;
+}
+.btn:hover{
+    background-color: 	#800000;
+    color: whitesmoke;
+}

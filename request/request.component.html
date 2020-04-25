@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-md fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <button class="btn btn-primary" routerLink="/">Home</button>
+                <button class="btn btn-primary" routerLink="../about">About</button>
+                <button class="btn btn-primary" routerLink="../camp">Organize Camp</button>
+                <button class="btn btn-primary" href="#">About Blood</button>
+                <button class="btn btn-primary" routerLink="../contact" routerLinkActive="active">Contact Us</button>
+                <button class="btn btn-primary" href="#">Sponsor Us</button>
+                <button class="btn btn-primary" href="#">Raise Request</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+<img id="request" src="assets/request.jpg">
+<form>
+    <div class="frequest" id="blk">
+        <h2 id="rb"><b>Request Blood</b></h2>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>Patient Name: </b></label>
+            <input type="text" class="form-control  text-center" id="name"
+                placeholder="Enter Patient's Name" name="name" required>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>Patient Number: </b></label>
+            <input type="text" class="form-control  text-center" id="mobile"
+                placeholder="Enter Patient's Number" name="mobile" required>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>Blood Group: </b></label><br>
+            <input type="text" class="form-control  text-center" id="bgroup"
+                placeholder="Enter Patient's Blood Group" name="bgroup" required>
+            <label id="type">Type blood group from the following types:</label>
+            <br>
+            <label id="types">A+ , AB+ , A- , B+ , B- , O+ , O- </label>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>City: </b></label>
+            <input type="text" class="form-control  text-center" id="city"
+                placeholder="Enter City" name="city" required>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>Hospital Name & Address: </b></label>
+            <textarea type="text" class="form-control  text-center" id="hospital"
+                placeholder="Enter Hospital's Details" name="hospital" required></textarea>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>Doctor Name: </b></label>
+            <input type="text" class="form-control  text-center" id="doctor"
+                placeholder="Enter Hospital's Details" name="doctor" required>
+        </div>
+        <div class="form-group textbox">
+            <label for="pwd" id="ep"><b>When Required?: </b></label>
+            <input type="date" class="form-control  text-center" id="rdate" name="rdate" required>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary text-center" id="btn" (click)="requestMe()">
+            <b>Request</b></button><br>
+    </div>
+</form> 

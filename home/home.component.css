@@ -1,0 +1,393 @@
+#body{
+    overflow-x: hidden;
+}
+
+.carousel-inner img {
+    width: 79.1em;
+    height: 85vh;
+}
+.navbar{
+    bottom: 88%;
+    height: 7%;
+    font-family: 'Coda', sans-serif;
+    font-size: large;
+    box-shadow: 0px 10px 28px 0px;
+    background-color: whitesmoke;
+}
+li{
+    padding: 1vh;
+}
+.btn{
+    background: transparent;
+    color:black;
+    border: 0ch;
+    border-radius: 2px;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+.btn:hover{
+    background-color: 	#800000;
+    color: whitesmoke;
+}
+
+.mySlides {
+    background-color: black;
+}
+
+#sen{
+    font-family: 'Coda', sans-serif;
+    font-size: 4vh;
+    padding-left: 18%;
+}
+
+#sen2{
+    font-family: 'Coda', sans-serif;
+    font-size: 6vh;
+    padding-left: 20%;
+    background-color: #800000;
+    color: white;
+}
+
+#demo{
+    padding-top:2%;
+}
+
+.blk1{
+    width: 18em;
+    height: 12.5em;
+    position: relative;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    overflow: hidden; 
+    height: 12.3em;
+    padding-top: 3%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #a50000;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.blk2{
+    width: 18em;
+    height: 12.5em;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    overflow: hidden; 
+    padding-top: 3%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #a50000;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.row{
+    padding-left: 5em;
+}
+
+#UY{
+    font-family: 'Rokkitt', serif;
+    font-size: 1em;
+}
+
+#nam{
+    font-size: 5em;
+    padding-left: 5.3em;
+    font-family: 'Coda Caption', sans-serif;
+    color: #5e0000;
+    position: relative;
+    text-shadow: 0 13.36px 8.896px #b9a37f,0 -2px 1px #fff;
+}
+
+#a{
+    font-family: 'Coda', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 0 13.36px 8.896px #b9a37f,0 -2px 1px #fff;
+}
+
+.b{
+    font-family: 'Coda', sans-serif;
+    font-size: 1.4em;
+    color: white;
+    background-color: #5e0000;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+#pic{
+    width: 70%;
+    position: relative;
+    left: 11em;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    overflow: hidden; 
+    height: 15em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-right: 8px solid #a50000;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pic1{
+    position: relative;
+    height: 14.9em;
+    width: 22em;
+    top:0em;
+    bottom: 2.4em;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pic1{
+    width: 70%;
+    position: relative;
+    left: 11em;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 10px;
+    overflow: hidden; 
+    height: 15em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #a50000;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pic2{
+    position: relative;
+    float: right;
+    height: 14.9em;
+    width: 22em;
+    top:0em;
+    bottom: 2.4em;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(75, 17, 17, 0.22);
+}
+#donat{
+    position: relative;
+    float: right;
+    font-size: 1.8em;
+    right: 5em;
+    top:0.5em;
+}
+#donate{
+    top:0.5em;
+    font-size: 1.8em;
+    position: relative;
+    left:1.6em;
+}
+#db1{
+    position: relative;
+    top:1.5em;
+    left: 4em;
+    color: rgb(44, 38, 38);
+}
+
+#db2{
+    position: relative;
+    top:4em;
+    left:4em;
+    float: right;
+    color: rgb(44, 38, 38);
+}
+
+.title{
+    font-size: 2.5em;
+    position: relative;
+    left:11.6em;
+    font-family: 'Coda Caption', sans-serif;
+    text-shadow: 0 13.36px 8.896px #b9a37f,0 -2px 1px #fff;
+}
+
+#icon{
+    height: 5em;
+    width: 5em;
+    position: relative;
+    left:8em;    
+}
+
+#icon1{
+    height: 5em;
+    width: 5em;
+    position: relative;
+    left:10em;
+}
+
+#icon2{
+    height: 5em;
+    width: 7em;
+    position: relative;
+    left:12em;
+}
+#icon3{
+    height: 7em;
+    width: 8em;
+    position: relative;
+    left:14em;
+}
+#icon4{
+    height: 2em;
+    width: 8em;
+    position: relative;
+    left:16em;
+}
+#icon5{
+    height: 5em;
+    width: 5em;
+    position: relative;
+    left:18em;
+}
+#icon6{
+    height: 4em;
+    width: 11em;
+    position: relative;
+    left:20em;
+}
+/*----footer---*/
+footer{
+    background-color: gainsboro;
+    height: 17em;
+}
+
+.right{
+    position: relative;
+    float: right;
+    top:2em;
+    color: black;
+    font-size: 1.3em;
+    font-family: 'Rokkitt', serif;
+    padding-right: 2em;
+}
+
+.right b{
+    font-size: 1.5em;
+}
+
+#logo{
+    position: relative;
+    float: left;
+    left:2em;
+    top:2em;
+    height: 15em;
+    width: 12em;
+}
+
+.center{
+    float: center;
+    position: relative;
+    left:2.7em;
+    top:0.4em;    
+    font-size: 4.3em;
+    font-family: 'Permanent Marker', cursive;
+    color: #800000;
+}
+
+#cr{
+    float: center;
+    position: relative;
+    left:13em;
+    font-size: 1.2em;
+    font-family: 'Rokkitt', serif;
+}
+
+#cr2{
+    float: center;
+    position: relative;
+    left:15.3em;
+    font-size: 1.2em;
+    font-family: 'Rokkitt', serif;
+}
+
+#you{
+    height: 3em;
+    position: relative;
+    left:14em;
+    top:1.5em;
+}
+#fb{
+    height: 3em;
+    position: relative;
+    left:15em;
+    top:1.5em;
+}
+#apl{
+    height: 3em;
+    position: relative;
+    left:16em;
+    top:1.5em;
+}
+#insta{
+    height: 3em;
+    position: relative;
+    left:17em;
+    top:1.5em;
+}
+#play{
+    height: 3em;
+    position: relative;
+    left:18em;
+    top:1.5em;
+}
+#twi{
+    height: 3em;
+    position: relative;
+    left:19em;
+    top:1.5em;
+}
+
+
+/*---------dropdown---------------
+.dropbtn {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 11em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 0.5em;
+    border-radius: 2px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #800000;color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+*/  
+/*------------------login----------------*/
+
+
+  
+  
+
+  
+  

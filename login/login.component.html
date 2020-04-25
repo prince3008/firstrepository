@@ -1,0 +1,33 @@
+<div class="carousel-item active">
+  <img src="assets/bg.jpg" alt="Los Angeles" width="1100" height="500">
+  <section class="container-fluid">
+    <section class="row center">
+      <div class="col-12 col-sm-2 col-md-7">
+        <section class="wrap-login center">
+          <div>
+            <p>LogIn Info</p>
+            <form>
+              <div class="form-group textbox" id="mail">
+                <label for="pwd" id="ep"><b>Email:</b></label>
+                <input type="email" class="form-control col-sm-2 col-md-8 text-center" id="email"
+                  placeholder="Enter email" name="email" required>
+              </div>
+              <div class="form-group textbox">
+                <label for="pwd" id="ep"><b>Password:</b></label>
+                <input type="password" class="form-control col-sm-2 col-md-8 text-center" id="pwd"
+                  placeholder="Enter password" name="pwd" required>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary text-center col-sm-2 col-md-8" id="btn" (click)="loginUser()"><b>Sign In</b></button>
+            </form>
+          </div><br>
+          <a class="text-center forgot" href="forgot.html">Forgot Password ?</a>
+          <br><a>OR</a><br>
+          <a class="text-center new" routerLink="signup" routerLinkActive="active">Create new acount ?</a>
+          <br>
+          <br>
+        </section>
+      </div>
+    </section>
+  </section>
+</div>
